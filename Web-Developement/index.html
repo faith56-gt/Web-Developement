@@ -4,11 +4,53 @@
     <meta charset="UTF-8"><!--The meta charset attribute specifies the character encoding for the HTML document.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--The meta tag sets the viewport attributes for responsive design.-->
     <title>Welcome Page</title><!--The title element specifies the title of the document, which is displayed in the browser's title bar or tab.-->
+ <style>
+        h1 {
+            color: #2e7d4c;
+            font-family: 'Arial', sans-serif;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color:#502c4b;
+            background-color: #a56be8;
+            padding:10px;
+            font-style: italic;
+        }
+        ::highlight {
+            color: #000;
+            font-weight: bold;
+            background-color: #54ad72;
+            padding: 5px;
+        }
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .topnav a:hover {
+            background-color: #f2f2f2;
+            color: black;
+        }
+    </style>
 </head>
-<a href="index.html">Home Page</a>&#65372;
-<a href="about.html">Go to About Page</a>&#65372;<!--The a element defines a hyperlink, and the href attribute specifies the URL of the page the link goes to.-->   
-<a href="projects.html">Projects Page</a>&#65372;
-<a href="contacts.html">Contacts Page</a>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home Page</a>
+        <a href="about.html">Go to About Page</a>
+        <a href="projects.html">Projects Page</a>
+        <a href="contacts.html">Contacts Page</a>
+    </div>
 
 <h1>Welcome to My Website!</h1><!--The h1 element defines a top-level heading.--> 
 <h2>Heading 2</h2>

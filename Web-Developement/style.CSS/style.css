@@ -30,8 +30,8 @@ h2 {
 }
 .topnav a {
     float: left;
+    color: #f2f2f2;
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -40,39 +40,38 @@ h2 {
 }
 .topnav a:hover {
     background-color: #f2f2f2;
-    color: black;
+    color: #333;
 }
 .banner {
     background-color: #3498db;
     color: white;
-    text-align: center; 
-    padding: 50px;
-    font-size: 24px;
- }
-.row::after{
+    padding: 20px;
+    text-align: center;
+}
+.row::after {
     content: "";
-    clear: both;
     display: block;
- }
- .column {
+    clear: both;
+}
+.content {
     float: left;
     width: 70%;
     padding: 20px;
- }
+}
 .sidebar {
-    float: left;
+    float: right;
     width: 30%;
     padding: 20px;
     background-color: #ecf0f1;
-        }
- .sidebar a {
-    color:#3498db;
-    text-decoration: none;  
-        }
- .sidebar a:hover {
+}
+.sidebar a {
+    color: #3498db;
+    text-decoration: none;
+}
+.sidebar a:hover {
     text-decoration: underline;
- }
- .sidebar ul{
+}
+.sidebar ul{
     list-style-type: none;
     margin-bottom: 5px;
 }
@@ -90,7 +89,7 @@ h2 {
     text-align: center;
     font-size: small;
     padding: 10px;
-    /* position: fixed; */
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
